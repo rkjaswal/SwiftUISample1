@@ -11,7 +11,7 @@ struct LoginView: View {
     @ObservedObject var viewModel: LoginViewModel
 
     var body: some View {
-        WebView(urlString: viewModel.authorizeUrl)
+        WebView(request: viewModel.authorizeUrl)
     }
 }
 

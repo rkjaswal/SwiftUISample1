@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ACADC4229F8375B00287DC7 /* accountslist.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ACADC4129F8375B00287DC7 /* accountslist.json */; };
 		4AD9A7C429F2EC7500460449 /* SwiftUISample1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A7C329F2EC7500460449 /* SwiftUISample1App.swift */; };
 		4AD9A7C629F2EC7500460449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A7C529F2EC7500460449 /* ContentView.swift */; };
 		4AD9A7C829F2EC7600460449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9A7C729F2EC7600460449 /* Assets.xcassets */; };
@@ -21,6 +22,15 @@
 		4AD9A7FB29F2EEA700460449 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A7FA29F2EEA700460449 /* RegisterView.swift */; };
 		4AD9A7FD29F2EEC200460449 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A7FC29F2EEC200460449 /* RegisterViewModel.swift */; };
 		4AD9A7FF29F2EF4200460449 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A7FE29F2EF4200460449 /* WebView.swift */; };
+		4AD9A83D29F68B1900460449 /* accounts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9A83C29F68B1900460449 /* accounts.json */; };
+		4AD9A84129F68C7E00460449 /* AccountsApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A84029F68C7E00460449 /* AccountsApiService.swift */; };
+		4AD9A84329F68CE100460449 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A84229F68CE100460449 /* Account.swift */; };
+		4AD9A84529F691FF00460449 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A84429F691FF00460449 /* AccountViewModel.swift */; };
+		4AD9A84729F6939A00460449 /* AccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A84629F6939A00460449 /* AccountsViewModel.swift */; };
+		4AD9A84929F6C83900460449 /* AccountsApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A84829F6C83900460449 /* AccountsApiClient.swift */; };
+		4AD9A84B29F6C89200460449 /* AccountsApiPreviewClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A84A29F6C89200460449 /* AccountsApiPreviewClient.swift */; };
+		4AD9A84D29F6E75000460449 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A84C29F6E75000460449 /* AccountView.swift */; };
+		4AD9A84F29F8347300460449 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A84E29F8347300460449 /* AccountsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ACADC4129F8375B00287DC7 /* accountslist.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = accountslist.json; sourceTree = "<group>"; };
 		4AD9A7C029F2EC7500460449 /* SwiftUISample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD9A7C329F2EC7500460449 /* SwiftUISample1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISample1App.swift; sourceTree = "<group>"; };
 		4AD9A7C529F2EC7500460449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +69,15 @@
 		4AD9A7FA29F2EEA700460449 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		4AD9A7FC29F2EEC200460449 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		4AD9A7FE29F2EF4200460449 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4AD9A83C29F68B1900460449 /* accounts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = accounts.json; sourceTree = "<group>"; };
+		4AD9A84029F68C7E00460449 /* AccountsApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsApiService.swift; sourceTree = "<group>"; };
+		4AD9A84229F68CE100460449 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		4AD9A84429F691FF00460449 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		4AD9A84629F6939A00460449 /* AccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewModel.swift; sourceTree = "<group>"; };
+		4AD9A84829F6C83900460449 /* AccountsApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsApiClient.swift; sourceTree = "<group>"; };
+		4AD9A84A29F6C89200460449 /* AccountsApiPreviewClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsApiPreviewClient.swift; sourceTree = "<group>"; };
+		4AD9A84C29F6E75000460449 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		4AD9A84E29F8347300460449 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +128,7 @@
 		4AD9A7C229F2EC7500460449 /* SwiftUISample1 */ = {
 			isa = PBXGroup;
 			children = (
+				4AD9A83E29F68C3000460449 /* Networking */,
 				4AD9A7ED29F2ECAF00460449 /* Screens */,
 				4AD9A7C329F2EC7500460449 /* SwiftUISample1App.swift */,
 				4AD9A7C529F2EC7500460449 /* ContentView.swift */,
@@ -121,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				4AD9A7CA29F2EC7600460449 /* Preview Assets.xcassets */,
+				4AD9A83C29F68B1900460449 /* accounts.json */,
+				4ACADC4129F8375B00287DC7 /* accountslist.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -184,6 +207,29 @@
 		4AD9A7F129F2ECDD00460449 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				4AD9A84429F691FF00460449 /* AccountViewModel.swift */,
+				4AD9A84629F6939A00460449 /* AccountsViewModel.swift */,
+				4AD9A84C29F6E75000460449 /* AccountView.swift */,
+				4AD9A84E29F8347300460449 /* AccountsView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		4AD9A83E29F68C3000460449 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4AD9A83F29F68C4A00460449 /* Account */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4AD9A83F29F68C4A00460449 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				4AD9A84029F68C7E00460449 /* AccountsApiService.swift */,
+				4AD9A84829F6C83900460449 /* AccountsApiClient.swift */,
+				4AD9A84A29F6C89200460449 /* AccountsApiPreviewClient.swift */,
+				4AD9A84229F68CE100460449 /* Account.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -293,6 +339,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD9A7CB29F2EC7600460449 /* Preview Assets.xcassets in Resources */,
+				4ACADC4229F8375B00287DC7 /* accountslist.json in Resources */,
+				4AD9A83D29F68B1900460449 /* accounts.json in Resources */,
 				4AD9A7C829F2EC7600460449 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,13 +367,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD9A7C629F2EC7500460449 /* ContentView.swift in Sources */,
+				4AD9A84329F68CE100460449 /* Account.swift in Sources */,
+				4AD9A84F29F8347300460449 /* AccountsView.swift in Sources */,
 				4AD9A7F529F2ED1600460449 /* WelcomeViewModel.swift in Sources */,
+				4AD9A84929F6C83900460449 /* AccountsApiClient.swift in Sources */,
+				4AD9A84D29F6E75000460449 /* AccountView.swift in Sources */,
+				4AD9A84129F68C7E00460449 /* AccountsApiService.swift in Sources */,
 				4AD9A7F929F2ED9C00460449 /* LoginViewModel.swift in Sources */,
+				4AD9A84729F6939A00460449 /* AccountsViewModel.swift in Sources */,
 				4AD9A7FD29F2EEC200460449 /* RegisterViewModel.swift in Sources */,
 				4AD9A7FB29F2EEA700460449 /* RegisterView.swift in Sources */,
+				4AD9A84B29F6C89200460449 /* AccountsApiPreviewClient.swift in Sources */,
 				4AD9A7F329F2ED0500460449 /* WelcomeView.swift in Sources */,
 				4AD9A7FF29F2EF4200460449 /* WebView.swift in Sources */,
 				4AD9A7F729F2ED8E00460449 /* LoginView.swift in Sources */,
+				4AD9A84529F691FF00460449 /* AccountViewModel.swift in Sources */,
 				4AD9A7C429F2EC7500460449 /* SwiftUISample1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +548,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,6 +577,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

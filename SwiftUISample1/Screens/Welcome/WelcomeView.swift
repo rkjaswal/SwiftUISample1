@@ -9,19 +9,21 @@ import SwiftUI
 
 struct WelcomeView: View {
     var body: some View {
-        NavigationStack {
-            NavigationLink("Login", destination: LoginView(viewModel: LoginViewModel()).navigationBarBackButtonHidden(false))
-                .padding()
-                .background(.blue)
-                .foregroundColor(.white)
-                .font(.headline)
-                .cornerRadius(25)
-            NavigationLink("Register", destination: RegisterView())
-                .padding()
-                .background(.blue)
-                .foregroundColor(.white)
-                .font(.headline)
-                .cornerRadius(25)
+        NavigationView {
+            VStack {
+                NavigationLink("Login", destination: LoginView(viewModel: LoginViewModel()).navigationBarBackButtonHidden(false))
+                    .padding()
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .cornerRadius(25)
+                NavigationLink("Register", destination: RegisterView())
+                    .padding()
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .cornerRadius(25)
+                }
             }
         }
 }
